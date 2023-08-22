@@ -22,11 +22,11 @@
                 <a href="#servicios" class="mr-5 hover:text-gray-900">Nuestros servicios</a>
                 <a href="#contacto" class="mr-5 hover:text-gray-900">Contacto</a>
             </nav>
-            <button class="inline-flex items-center text-white bg-black border-0 py-1 px-3 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0">Iniciar sesion
+            <a href="login_view.php" class="inline-flex items-center text-white bg-black border-0 py-1 px-3 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0">Iniciar sesion
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-            </button>
+            </a>
         </div>
     </header>
 
@@ -38,8 +38,12 @@
                 </h1>
                 <p class="mb-8 leading-relaxed">Somos una empresa global que ofrece las soluciones de seguridad más avanzadas y sostenibles de la industria. Estamos en 47 países al rededor del mundo y confían en nosotros más de 150 000 clientes , tanto pequeñas como grandes empresas e industrias.</p>
                 <div class="flex justify-center">
-                    <button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg">Servicios</button>
-                    <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Contacto</button>
+                    <button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg">
+                        <a href="#servicios">Servicios</a>
+                    </button>
+                    <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                        <a href="#contacto">Contacto</a>
+                    </button>
                 </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
