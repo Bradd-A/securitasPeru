@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="icon" href="../img/icons/ruedo_icon.ico" type="image/x-icon">
+    <link rel="icon" href="../img/icons/securitasIcon.ico" type="image/x-icon">
     <link href="../css/output.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
