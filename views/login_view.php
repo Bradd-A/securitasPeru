@@ -22,7 +22,13 @@
                 <label for="password" class="block font-medium mb-1">Contraseña</label>
                 <input type="password" id="password" name="password" class="w-full p-2 border rounded" placeholder="********">
             </div>
-            <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Ingresar</button>
+            <div class="flex gap-3">
+                <button type="submit" class="w-full bg-gray-500 text-white py-2 rounded hover:bg-gray-600">
+                    <a href="index.php">Regresar</a>
+                </button>
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Ingresar</button>
+            </div>
+            
         </form>
     </div>
 </body>
